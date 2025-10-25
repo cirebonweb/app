@@ -63,6 +63,7 @@ writable/uploads/*
 writable/debugbar/*
 !writable/debugbar/index.html
 
+writable/flag/*
 writable/json/*
 
 php_errors.log
