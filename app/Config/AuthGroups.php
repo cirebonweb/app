@@ -23,7 +23,7 @@ class AuthGroups extends ShieldAuthGroups
      * --------------------------------------------------------------------
      * The group that a newly registered user is added to.
      */
-    public string $defaultGroup = 'user';
+    public string $defaultGroup = 'klien';
 
     /**
      * --------------------------------------------------------------------
@@ -53,8 +53,8 @@ class AuthGroups extends ShieldAuthGroups
             'title'       => 'Developer',
             'description' => 'Site programmers.',
         ],
-        'user' => [
-            'title'       => 'User',
+        'klien' => [
+            'title'       => 'Klien',
             'description' => 'General users of the site. Often customers.',
         ],
         'beta' => [
@@ -74,10 +74,10 @@ class AuthGroups extends ShieldAuthGroups
     public array $permissions = [
         'admin.access'        => 'Can access the sites admin area',
         'admin.settings'      => 'Can access the main site settings',
-        'users.manage-admins' => 'Can manage other admins',
-        'users.create'        => 'Can create new non-admin users',
-        'users.edit'          => 'Can edit existing non-admin users',
-        'users.delete'        => 'Can delete existing non-admin users',
+        'klien.manage-admins' => 'Can manage other admins',
+        'klien.create'        => 'Can create new non-admin users',
+        'klien.edit'          => 'Can edit existing non-admin users',
+        'klien.delete'        => 'Can delete existing non-admin users',
         'beta.access'         => 'Can access beta-level features',
     ];
 
@@ -92,24 +92,24 @@ class AuthGroups extends ShieldAuthGroups
     public array $matrix = [
         'superadmin' => [
             'admin.*',
-            'users.*',
+            'klien.*',
             'beta.*',
         ],
         'admin' => [
             'admin.access',
-            'users.create',
-            'users.edit',
-            'users.delete',
+            'klien.create',
+            'klien.edit',
+            'klien.delete',
             'beta.access',
         ],
         'developer' => [
             'admin.access',
             'admin.settings',
-            'users.create',
-            'users.edit',
+            'klien.create',
+            'klien.edit',
             'beta.access',
         ],
-        'user' => [],
+        'klien' => [],
         'beta' => [
             'beta.access',
         ],

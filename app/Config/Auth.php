@@ -46,17 +46,17 @@ class Auth extends ShieldAuth
      * --------------------------------------------------------------------
      */
     public array $views = [
-        'login'                       => '\CodeIgniter\Shield\Views\login',
-        'register'                    => '\CodeIgniter\Shield\Views\register',
-        'layout'                      => '\CodeIgniter\Shield\Views\layout',
-        'action_email_2fa'            => '\CodeIgniter\Shield\Views\email_2fa_show',
-        'action_email_2fa_verify'     => '\CodeIgniter\Shield\Views\email_2fa_verify',
-        'action_email_2fa_email'      => '\CodeIgniter\Shield\Views\Email\email_2fa_email',
-        'action_email_activate_show'  => '\CodeIgniter\Shield\Views\email_activate_show',
-        'action_email_activate_email' => '\CodeIgniter\Shield\Views\Email\email_activate_email',
-        'magic-link-login'            => '\CodeIgniter\Shield\Views\magic_link_form',
-        'magic-link-message'          => '\CodeIgniter\Shield\Views\magic_link_message',
-        'magic-link-email'            => '\CodeIgniter\Shield\Views\Email\magic_link_email',
+        'login'                       => '\Cirebonweb\shield\login',
+        'register'                    => '\Cirebonweb\shield\register',
+        'layout'                      => '\Cirebonweb\shield\layout',
+        'action_email_2fa'            => '\Cirebonweb\shield\email_2fa_show',
+        'action_email_2fa_verify'     => '\Cirebonweb\shield\email_2fa_verify',
+        'action_email_2fa_email'      => '\Cirebonweb\shield\Email\email_2fa_email',
+        'action_email_activate_show'  => '\Cirebonweb\shield\email_activate_show',
+        'action_email_activate_email' => '\Cirebonweb\shield\Email\email_activate_email',
+        'magic-link-login'            => '\Cirebonweb\shield\magic_link_form',
+        'magic-link-message'          => '\Cirebonweb\shield\magic_link_message',
+        'magic-link-email'            => '\Cirebonweb\shield\Email\magic_link_email',
     ];
 
     /**

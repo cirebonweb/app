@@ -4,8 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "551ff638166b6aa3e96a8e48f5689b21",
+    "content-hash": "4925013d0390ed301a7244ff1463aec0",
     "packages": [
+        {
+            "name": "cirebonweb/core",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cirebonweb/core.git",
+                "reference": "9c02cecafe88de3a1bd861546e47e8202d26c28e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cirebonweb/core/zipball/9c02cecafe88de3a1bd861546e47e8202d26c28e",
+                "reference": "9c02cecafe88de3a1bd861546e47e8202d26c28e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "type": "library",
+            "extra": {
+                "ci4": {
+                    "resources": {
+                        "views": "src/Views"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cirebonweb\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mahmud",
+                    "email": "support@cirebonweb.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Core package for CodeIgniter 4 with Admin Dashboard",
+            "keywords": [
+                "codeigniter",
+                "codeigniter4"
+            ],
+            "support": {
+                "issues": "https://github.com/cirebonweb/core/issues",
+                "source": "https://github.com/cirebonweb/core/tree/1.0.1"
+            },
+            "time": "2025-10-24T20:59:30+00:00"
+        },
         {
             "name": "codeigniter4/framework",
             "version": "v4.6.3",
