@@ -14,6 +14,7 @@
         "cirebonweb/core": "^1.0",
         "codeigniter4/framework": "^4.0",
         "codeigniter4/shield": "^1.2",
+        "dompdf/dompdf": "^3.1",
         "geoip2/geoip2": "^3.2"
     },
     "require-dev": {
