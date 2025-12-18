@@ -127,3 +127,9 @@ _modules/*
 
 /results/
 /phpunit*.xml
+
+#-------------------------
+# Custom
+#-------------------------
+*.sql
+!public/vendor/
