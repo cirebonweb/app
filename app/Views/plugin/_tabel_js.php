@@ -5,6 +5,6 @@
 <script src="<?= base_url('plugin/datatables/dataTables.buttons.min.js') ?>" defer></script>
 <script src="<?= base_url('plugin/datatables/buttons.html5.min.js') ?>" defer></script>
 <script src="<?= base_url('plugin/datatables/jszip.min.js') ?>" defer></script>
-<script src="<?= base_url('page/helper_format.min.js') ?>" defer></script>
-<script src="<?= base_url('page/helper_form.min.js') ?>" defer></script>
-<script src="<?= base_url('page/helper_tabel.min.js') ?>" defer></script>
+<script src="<?= base_url('page/cirebonweb_format.min.js') ?>" defer></script>
+<script src="<?= base_url('page/cirebonweb_form.min.js') ?>" defer></script>
+<script src="<?= base_url('page/cirebonweb_tabel.min.js') ?>" defer></script>
